@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -37,7 +37,88 @@
 
 <body>
     <!-- header section -->
-    <header></header>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar bg-[#FFF9F4]">
+            <div class="container mx-auto px-6">
+                <div class="navbar flex justify-between items-center">
+                    <!-- Logo -->
+                    <div class="flex items-center">
+                        <div class="mx-3">
+                            <img src="./c1-assets/logo-header.png" alt="logo">
+                        </div>
+                        <a href="#" class="text-xl font-bold text-gray-800">Browses<span
+                                class="text-yellow-500">4</span>Pets</a>
+                    </div>
+
+                    <!-- Navigation Links -->
+                    <div class="hidden md:flex space-x-6">
+                        <a href="#" class="text-gray-700 hover:text-gray-900">Find a pet</a>
+                        <a href="#" class="text-gray-700 hover:text-gray-900">Breeds</a>
+                        <a href="#" class="text-gray-700 hover:text-gray-900">Contact us</a>
+                    </div>
+
+                    <!-- Login/Register Section -->
+                    <div class="flex items-center space-x-4">
+
+                        <!-- notification svg icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-bell">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                        </svg>
+
+                        <!-- search svg icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-search">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+
+                        <button
+                            class="text-gray-700 hover:text-gray-900 border border-yellow-400 rounded-lg px-5 py-2 font-bold">Login</button>
+                        <button class="bg-[#FFDC26] px-5 py-2 rounded-lg font-bold">Register</button>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <div class="md:hidden">
+                        <button class="btn btn-ghost">
+                            <i class="fas fa-bars text-xl"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row items-center">
+                    <!-- Content Section (Left Aligned) -->
+                    <div class="md:w-1/2 space-y-6">
+                        <h1 class="text-5xl font-bold text-gray-800">
+                            Pamper Your Pet,<br>
+                            Because They Deserve<br>
+                            the Bes
+                        </h1>
+                        <p class="text-gray-600 text-lg">
+                            Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now
+                            and make tails wag with joy!
+                        </p>
+                        <br>
+                        <button class="px-7 py-1 rounded-md  bg-[#FFDC26]">Find a Pet</button>
+                    </div>
+
+                    <!-- Image Section (Centered) -->
+                    <div class="">
+                        <img src="./c1-assets/cat-big.png" alt="Pet Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
 
     <!-- main section -->
     <main></main>
