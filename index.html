@@ -402,8 +402,41 @@
     </main>
 
     <!-- footer section -->
-    <footer class="footer bg-[#f1d95f] text-base-content p-10 font-sora">
-        <nav>
+
+    <!-- Pawsome News Section -->
+
+    <section class="bg-[#FFF7F0] py-16 px-6 md:px-12 lg:px-28 w-10/12 mx-auto rounded-xl relative -mb-40 z-50 ">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-3xl mx-auto text-center">
+
+            <div>
+                <img src="./c1-assets/cute-pet-mid.png" alt="">
+            </div>
+            <div class="md:mt-28">
+                <!-- Heading -->
+                <h2 class="text-3xl mb-4">Get Pawsome News!</h2>
+
+                <!-- Description -->
+                <p class="text-gray-600 mb-8 font-serif">Exclusive training tips, tricks, product deals, and more.</p>
+
+                <!-- Email Input and Subscribe Button -->
+                <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+                    <!-- Email Input -->
+                    <input type="email" placeholder="Enter email..."
+                        class="w-full md:w-64 px-4 py-3 rounded-lg border border-gray-300 font-serif " />
+
+                    <!-- Subscribe Button -->
+                    <div class="block">
+                        <button class="bg-[#FFDC26] px-5 py-2 rounded-lg font-serif hidden sm:block">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer bg-[#f1d95f] text-base-content p-10 font-sora absolute">
+        <nav class="my-auto">
             <div class="flex items-center gap-4">
                 <img src="./c1-assets/logo-footer.png" alt="footer-logo">
                 <h3 class="text-lg font-bold">Browse4Pet</h3>
@@ -412,12 +445,12 @@
                 Discover a world of treats, toys, and essentials handpicked for your furry friends
             </p>
         </nav>
-        <nav>
+        <nav class="my-auto">
             <a class="link link-hover font-bold">Find a pet</a>
             <a class="link link-hover font-bold">Breeds</a>
             <a class="link link-hover font-bold">Contact us</a>
         </nav>
-        <nav>
+        <nav class="my-36">
             <h6 class="footer-title">Follow us</h6>
             <div class="grid grid-flow-col gap-4">
                 <a>
